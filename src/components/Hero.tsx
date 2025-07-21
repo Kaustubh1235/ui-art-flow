@@ -22,9 +22,12 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-        <h1 className="text-7xl md:text-9xl font-bold bg-gradient-primary bg-clip-text text-transparent leading-tight animate-fade-in">
+        <h1 className="text-7xl md:text-9xl font-bold bg-gradient-primary bg-clip-text text-transparent leading-tight animate-slide-in-left opacity-0" style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>
           Kaustubh Arora
         </h1>
+        <p className="text-xl md:text-2xl text-muted-foreground mt-6 animate-fade-in opacity-0" style={{ animationDelay: '1.2s', animationFillMode: 'forwards' }}>
+          Full Stack Developer & AI Engineer
+        </p>
       </div>
       
       {/* Scroll Indicator */}
