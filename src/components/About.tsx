@@ -18,14 +18,12 @@ const About = () => {
               Passionate Developer & Tech Enthusiast
             </h3>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I'm a dedicated Computer Science graduate from Vellore Institute of Technology, 
-              specializing in full-stack development and artificial intelligence. With a strong 
-              foundation in modern technologies, I create innovative solutions that bridge the 
-              gap between complex technical challenges and user-friendly experiences.
+              Full-stack Machine Learning Engineer with hands-on expertise in Python, C++, TensorFlow, React, Node.js, and AWS. 
+              Proven experience building production-grade AI systems, optimizing backend services, and developing scalable full-stack applications.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              My journey in technology is driven by curiosity and a passion for continuous learning. 
-              I believe in writing clean, efficient code and building products that make a real difference.
+              Notable projects include AI Legal Advisor (92% accuracy) and wind forecasting models for DRDO UAVs. 
+              Currently pursuing B.Tech in Computer Science at VIT Vellore with a CGPA of 8.4.
             </p>
             
             <div className="grid grid-cols-2 gap-6">

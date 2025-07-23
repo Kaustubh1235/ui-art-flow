@@ -5,33 +5,29 @@ import { Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Technical Intern",
-      company: "DRDO-AEEDE",
-      location: "ML Research & Atmospheric Sciences",
-      period: "May 2025 - June 2025",
-      type: "Internship",
+      title: "Machine Learning Research Intern",
+      company: "DRDO - ADRDE",
+      location: "Defense Research & Development Organization",
+      period: "Government of India",
+      type: "Research",
       description: [
-        "Selected among top 10 of 1500+ candidates for prestigious summer training program",
-        "Developed ensemble learning models using Random Forest and Ridge Regression for leaf spectral forecasting",
-        "Engineered complex data processing pipeline with ELAS and utilized atmospheric parameters",
-        "Achieved 15% RMSE reduction through ensemble methods and SHAP-based feature importance analysis",
-        "Worked under guidance on UAV data processing and forecasting algorithms"
+        "Selected among top 10 candidates from 1000+ applicants for prestigious government research internship",
+        "Developed Conv1D-LSTM ensemble model for wind speed forecasting in UAV operational zones, reducing prediction RMSE by 18%",
+        "Integrated 4D ERA5 GRIB meteorological data with advanced preprocessing pipelines and SHAP feature importance analysis"
       ],
-      technologies: ["Python", "Machine Learning", "Random Forest", "Ridge Regression", "SHAP", "Data Processing"]
+      technologies: ["Python", "TensorFlow", "Conv1D-LSTM", "SHAP", "ERA5 GRIB", "Machine Learning"]
     },
     {
-      title: "AI Engineering Intern",
+      title: "AI Systems Development Intern",
       company: "Fission Labs",
-      location: "AI Systems Development",
-      period: "June 2025 - Present",
+      location: "Artificial Intelligence & Automation",
+      period: "Current Position",
       type: "Current",
       description: [
-        "Building Agentic AI systems for automated task orchestration and decision-making",
-        "Developed complex backend services with optimized real-time processing capabilities",
-        "Enhanced system performance through advanced AI handling and resource optimization",
-        "Gained expertise in scalable AI architecture with production-ready deployment"
+        "Architected agentic AI systems for automated task execution, handling 1000+ concurrent requests with optimized caching",
+        "Enhanced data processing pipelines achieving 60% improvement in throughput using Redis caching mechanisms"
       ],
-      technologies: ["AI Systems", "Python", "Backend Development", "System Optimization", "Real-time Processing"]
+      technologies: ["AI Systems", "Python", "Redis", "Caching", "Backend Development", "System Architecture"]
     }
   ];
 
